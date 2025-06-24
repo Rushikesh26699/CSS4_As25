@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap");
+
+.assignments {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.assignment1 {
+  /* border: 2px solid black; */
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  /* padding: 10px; */
+  font-family: "Poppins", sans-serif;
+}
+
+.as1Main {
+  background: #1de592;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 120px 40px;
+}
+.as1Main .title {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.as1Main p {
+  font-size: 14px;
+}
+
+.as1Main button {
+  width: 200px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 10px;
+  background: white;
+}
+
+.assignment2 {
+  width: 440px;
+  height: 390px;
+  /* border: 2px solid black; */
+  margin: 20px;
+  /* padding: 10px; */
+}
+
+.as2main {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  /* background: #000; */
+  border: 2px solid lightgray;
+}
+.as2main_prof {
+  width: 89%;
+  height: 60%;
+  padding: 30px 0 30px 30px;
+  /* border-bottom: 1px solid gray; */
+  /* border: 1px solid red; */
+}
+
+.as2main_bottom {
+  border-top: 1px solid gray;
+  height: 30%;
+  padding: 10px 25px;
+}
+
+.as2main_bottom_p {
+  color: #3c86eb;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.as2main h4 {
+  font-size: 35px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.as2main_prof_p {
+  color: gray;
+  font-size: 16px;
+}
+
+.as2main img {
+  width: 20%;
+  height: 35%;
+  border-radius: 50%;
+  margin-left: 70px;
+  object-fit: cover;
+}
+
+.as2main hr {
+  width: 100%;
+  color: #1de592;
+}
+
+/* ------------------------------------------------------ */
+
+.assignment3 {
+  width: 400px;
+  height: 610px;
+  border: 2px solid lightgray;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.as3imgdiv {
+  width: 100%;
+  height: 250px;
+  /* border: 2px solid red; */
+}
+
+.as3imgdiv img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.as3content {
+  /* border: 2px solid red; */
+  padding: 10px 20px;
+}
+
+.as3p1 {
+  color: gray;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.as3p2 {
+  font-size: 24px;
+}
+
+.as3p3 {
+  color: gray;
+}
+
+.as3content button {
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  background: transparent;
+  margin-top: 5px;
+  color: #3c86eb;
+  font-size: 16px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------- */
+
+.assignment4 {
+  /* border: 2px solid red; */
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+  box-shadow: 2px 4px 10px black;
+}
+
+.as4main {
+  width: 70%;
+  height: 90%;
+  /* border: 2px solid red; */
+  margin: 30px auto;
+}
+
+.as4logobox {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.as4logobox img {
+  width: 50%;
+  height: 80%;
+}
+
+.as4creds {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 60%;
+  text-align: center;
+}
+
+.as4creds_p {
+  font-weight: 600;
+}
+
+.as4creds input {
+  width: 60%;
+  height: 15%;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+.as4creds input::placeholder {
+  padding: 5px 5px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.as4creds_password {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  width: 62%;
+  height: 15%;
+  margin: 10px auto;
+  display: flex;
+  
+}
+
+.as4creds_password input {
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid black; */
+  /* border-radius: 10px; */
+  border: none;
+  padding: 0 5px;
+  font-size: 12px;
+  margin-right: 70px;
+}
+
+.as4creds_password p{
+    font-size: 12px;
+    color: gray;
+}
+
+.as4creds button{
+    width: 50%;
+    height: 14%;
+    color: white;
+    background: #000;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.as4creds_sign{
+    font-size: 12px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.as4creds_sign strong{
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+
+.as4creds_decl{
+    margin-top: 30px;
+    font-size: 12px;
+    color: gray;
+}
+
+.as4creds_decl strong{
+    font-weight: 600;
+    text-decoration: underline;
+}
